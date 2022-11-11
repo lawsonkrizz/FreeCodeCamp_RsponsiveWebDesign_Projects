@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+}
+
+#img-div{
+    background-color: grey;
+    padding: 10px;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+#img-caption{
+    display: block;
+    margin: 15px 0 5px 0;
+}
+
+#tribute-info{
+    margin: 1% 15%;
+    padding: 0% 10%;
+}
+
+#tribute-info p{
+    margin-top: 4px;
+    text-align: left;
+}
+
+#end-des{
+    font-size: 1.2rem;
+}
+#end-des {
+    font-size: 2rem;
+}
