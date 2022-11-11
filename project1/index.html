@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Survay</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="cont1">
+        <h1 id="title">Survey</h1>
+    <p id="description">This is online survey</p>
+    <form action="#" id="survey-form">
+
+        <!-- Name input -->
+
+        <label for="name" id="name-label">Name</label>
+        <br>
+        <input type="text" class="form-element" required id="name" placeholder="Enter Name here...">
+        <br>
+
+
+        <!-- email input -->
+
+        <label for="email" id="email-label">Email</label>
+        <br>
+        <input type="email" class="form-element"  id="email" required placeholder="Enter email here...">
+        <br>
+
+
+        <!-- number input -->
+
+        <label for="number" id="number-label">Number</label>
+        <br>
+        <input type="number" class="form-element" id="number" max="100" min="0" placeholder="Enter a number...">
+        <br>
+
+
+
+        <!-- dropdown menu -->
+
+        <label for="dropdown">Choose a Tech</label>
+        <br>
+
+        <select id="dropdown" class="form-element">
+            <option value="web dev"> Web Dev</option>
+            <option value="app dev"> App Dev</option>
+        </select>
+        <br>
+
+
+
+        <!-- radio inputs -->
+
+        <label for="form-radio-1">Jan</label>
+        <input type="radio" class="form-element" name="year" id="form-radio-1" value="form-radio-1">
+
+        <label for="form-radio-2">Feb</label>
+        <input type="radio" class="form-element" name="year" id="form-radio-2" value="form-radio-2">
+        <br>
+
+
+        <!-- checkbox inputs -->
+
+        <label for="form-check-1">Bmw</label>
+
+        <input type="checkbox" class="form-element" name="form-check-1" id="form-check-1" value="form-check-1" >
+
+        <label for="form-check-1">Audi</label>
+        <input type="checkbox" class="form-element" name="form-check-2" id="form-check-2" value="form-check-2" >
+        <br>
+
+
+        <!-- comment box -->
+
+        <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="Enter your text here..."></textarea>
+        <br>
+
+
+        <!-- submit button -->
+
+        <input type="submit" class="form-element" id="submit">
+    </form>
+    </div>
+</body>
+</html>

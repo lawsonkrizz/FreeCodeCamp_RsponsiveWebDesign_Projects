@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cont1{
+    background-color: skyblue;
+    padding: 0% 5%;
+}
+
+#title{
+    font-size: 5rem;
+    margin: 0% 0%;
+    text-align: center;
+}
+
+#description{
+    font-size: 3rem;
+    margin: 1% 0%;
+    text-align: center;
+}
+
+.form-element{
+    margin: 0.9% 0%;
+}
+
+label{
+    font-size: 2.4rem;
+    /* margin-right: 9px; */
+}
+
+input{
+    width: 35vw;
+    height: 4vh;
+    padding-left: 2%;
+    font-size: 1.5rem;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#form-radio-1, #form-radio-2, #form-check-1, #form-check-2{
+    width: 3vw;
+}
+
+
+#dropdown{
+    width: 15vw;
+    height: 4vh;
+    font-size: 1.5rem;
+    text-align: center;
+    border-style: none;
+    border-radius: 5px;
+}
+
+#textarea{
+    width: 35vw;
+    height: 20vh;
+    padding: 1% 0% 0% 1%;
+    font-size: 1.5rem;
+}
