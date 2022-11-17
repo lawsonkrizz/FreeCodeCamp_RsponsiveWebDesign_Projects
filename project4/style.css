@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 40px;
+    background-color: rgba(128, 128, 128, 0.4);
+    border-bottom: 1px solid black;
+    z-index: 1;
+}
+
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#nav-bar{
+    padding: 20px 10px ;
+}
+
+#nav-bar a{
+    padding: 2px 25px ;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+}
+
+#sec1{
+    text-align: center;
+    align-items: center;
+    padding-top: 80px;
+    height: 40vh;
+    background-color: beige;
+    border-bottom: 1px solid black;
+}
+
+#sec1 h1{
+    font-size: 2rem;
+}
+
+input{
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+#email{
+    width: 30%;
+    height: 30px;
+    font-size: 1.1rem;
+    padding-left: 5px;
+}
+
+#submit{
+    width: 10%;
+    height: 30px;
+    font-size: 1.2rem;
+    background-color: yellow;
+}
+
+#features{
+    padding: 3% 25%;
+}
+
+#features h2{
+    font-size: 2rem;
+    padding:  15px 0px;
+}
+#features p{
+    font-size: 1.5rem;
+    padding-left: 20px;
+}
+
+#video{
+   margin-left: 23%;
+    
+}
+
+#sec2{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    margin: 50px 30px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+.card h1{
+    font-size: 1.8rem;
+    padding: 7px 0px;
+}
+.card h2{
+    font-size: 1.6rem;
+    padding: 7px 0px;
+}
+.card p{
+   padding: 7px 0px;
+}
+
+.btn{
+   margin: 7px 0px;
+   width: 80px;
+   height: 30px;
+}
+
+#footer ul{
+    display:  flex;
+    list-style: none;
+    float: right;
+}
+
+#footer ul li a{
+    margin: 5px 9px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: skyblue;
+    }
+  }
+  
