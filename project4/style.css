@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#header {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: blanchedalmond;
+}
+
+main
+
+#logo {
+    width: 20%;
+}
+
+
+#nav {
+    width: 80%;
+    
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: black;
+    padding: 0px 20px;
+    font-size: 1.5rem;
+}
+
+#nav-bar a:hover {
+    color: rgb(240, 135, 152);
+}
+
+#main-section-1 {
+    height: 40vh;
+    width: 100vw;
+    background-color: burlywood;
+    text-align: center;
+}
+
+#main-section-1 h1 {
+    padding-top: 30px;
+    font-size: 2rem;
+}
+
+#email {
+    width: 30vw;
+    height: 5vh;
+    margin: 10px 0px;
+    padding-left: 5px;
+    border-style: none;
+    border-radius: 10px;
+}
+
+#submit {
+    width: 15vw;
+    height: 5vh;
+    margin: 10px 0px;
+    border-style: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    background-color: yellow;
+}
+
+#features {
+    padding: 5% 20%;
+}
+
+#features h2 {
+    padding: 10px 0px;
+    font-size: 2rem;
+}
+
+#features p {
+    font-size: 1.2rem;
+}
+
+#main-section-4 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+
+.card {
+    width: 25%;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+#footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px;
+    background-color: grey;
+    margin: 0px 90px;
+    height: 10vh;
+}
+
+#footer ul{
+    display: flex;
+    list-style: none;
+    color: black;
+}
+
+#footer ul li{
+    padding: 0px 2px;
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 817px) {
+    #header{
+        display: block;
+        height: 10vh;
+    }
+    #logo{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #nav{
+        display: none;
+    }
+
+    #main-section-4{
+        display: block;
+    }
+
+    .card{
+        width: 70%;
+        margin: 10px auto;
+    }
+}
+
+@media screen and (max-width: 613px) {
+    #email {
+        width: 100%;
+    }
+    
+    #submit {
+        width: 40%;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 475px) {
+
+    #header-img{
+        width: 300px;
+        padding-top: 15px;
+    }
+
+    .card{
+        width: 70%;
+    }
+}
